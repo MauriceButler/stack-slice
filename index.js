@@ -1,4 +1,4 @@
-var fileNameRegex = /\((.*?):/;
+var fileNameRegex = /\(?((?:\w:\\|\/).*?):/;
 
 function stackSlice(error, path, partialMatches){
     var callSites = error.stack.split('\n'),
