@@ -1,6 +1,6 @@
 {
   "name": "stack-slice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slice a file or directory from the middle of an Error stack trace",
   "main": "index.js",
   "directories": {
